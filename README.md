@@ -36,12 +36,34 @@ An autonomous AI agent setup built with CrewAI and Gemini that moves beyond simp
    ```
 6. **Configure API Keys:**
    ```
-   OPENAI_API_KEY=your_openai_api_key_here
+   GEMINI_API_KEY=your_gemini_api_key_here
    ```
 7. **Run the Self-Healing Loop:**
    ```
    python main.py
    ```
+🔁 How the Self-Healing Loop Works
+[ User Prompt / Task ]
+         │
+         ▼
+ ┌──────────────┐
+ │ Code Writer  │ ──► Generates Initial Python Code
+ └──────┬───────┘
+        ▼
+ ┌──────────────┐
+ │ Execution    │ ──► Runs code in execution environment
+ └──────┬───────┘
+        ├─────────────────────────────┐
+   [ If Errors Found ]           [ If Success ]
+        │                             │
+        ▼                             ▼
+ ┌──────────────┐             ┌──────────────┐
+ │ Debugger     │             │ Clean Output │
+ │ Agent (Loop) │             └──────────────┘
+ └──────┬───────┘
+        │ (Feeds Traceback & Refactors)
+        └─────────────► Back to Execution
+
    
    
    
