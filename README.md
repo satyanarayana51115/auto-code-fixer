@@ -13,13 +13,36 @@ An autonomous AI agent setup built with CrewAI and Gemini that moves beyond simp
 - **Model:** Gemini AI
 - ## 🚀 Quick Start 
 
-1. **Clone the Repository**
+1. **Clone the Repository:**
    ```bash
    git clone https://github.com/satyanarayana51115/auto-code-fixer.git
    cd auto-code-fixer
    ```
-2. **Create a Virtual Environment**
+2. **Create a Virtual Environment:**
    ```
    python -m venv venv
    ```
+3. **On Windows:**
+   ```
+   venv\Scripts\activate
+   ```
+4. **On Mac/Linux:**
+   ```
+   source venv/bin/activate
+   ```
+5. **Install Dependencies:**
+   ```
+   pip install -r requirements.txt
+   ```
+6. **Configure API Keys:**
+   ```
+   OPENAI_API_KEY=your_openai_api_key_here
+   ```
+7. **Run the Self-Healing Loop:**
+   ```
+   python app.py
+   ```
+   
+   
+   
 
