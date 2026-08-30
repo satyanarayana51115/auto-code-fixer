@@ -42,31 +42,24 @@ An autonomous AI agent setup built with CrewAI and Gemini that moves beyond simp
    ```
    python main.py
    ```
-## 🔁 How the Self-Healing Loop Works
+
+   ## 🔁 How the Self-Healing Loop Works
+
+```mermaid
+graph TD
+    A[User Prompt / Task] --> B[Code Writer Agent]
+    B --> C[Code Execution Tool]
+    C -->|If Error Detected| D[Debugger Agent - Loop]
+    D -->|Feeds Traceback & Refactors| C
+    C -->|If Success| E[Clean Output]
 ```
 
- [ User Prompt / Task ]
-         │
-         ▼
- ┌──────────────┐
- │ Code Writer  │ ──► Generates Initial Python Code
- └──────┬───────┘
-        ▼
- ┌──────────────┐
- │ Execution    │ ──► Runs code in execution environment
- └──────┬───────┘
-        ├─────────────────────────────┐
-   [ If Errors Found ]           [ If Success ]
-        │                             │
-        ▼                             ▼
- ┌──────────────┐             ┌──────────────┐
- │ Debugger     │             │ Clean Output │
- │ Agent (Loop) │             └──────────────┘
- └──────┬───────┘
-        │ (Feeds Traceback & Refactors)
-        └─────────────► Back to Execution
-```
+## 👨‍💻 Author
+**Raj (Satyanarayana)** - [@satyanarayana51115] https://github.com/satyanarayana51115
 
+
+
+ 
  
  
   
