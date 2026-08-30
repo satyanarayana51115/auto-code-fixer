@@ -11,11 +11,15 @@ An autonomous AI agent setup built with CrewAI and Gemini that moves beyond simp
 - **Framework:** CrewAI
 - **Language:** Python
 - **Model:** Gemini AI
-- ## 🚀 Quick Start (7 Easy Steps)
+- ## 🚀 Quick Start 
 
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/satyanarayana51115/auto-code-fixer.git
    cd auto-code-fixer
+   ```
+2. **Create a Virtual Environment**
+   ```
+   python -m venv venv
    ```
 
