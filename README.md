@@ -42,8 +42,8 @@ An autonomous AI agent setup built with CrewAI and Gemini that moves beyond simp
    ```
    python main.py
    ```
-8. **🔁 How the Self-Healing Loop Work:**
-   ```
+##🔁 How the Self-Healing Loop Works
+
  [ User Prompt / Task ]
          │
          ▼
@@ -65,7 +65,7 @@ An autonomous AI agent setup built with CrewAI and Gemini that moves beyond simp
         │ (Feeds Traceback & Refactors)
         └─────────────► Back to Execution
 
- ```
+ 
  
   
   
