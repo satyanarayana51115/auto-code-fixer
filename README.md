@@ -40,7 +40,7 @@ An autonomous AI agent setup built with CrewAI and Gemini that moves beyond simp
    ```
 7. **Run the Self-Healing Loop:**
    ```
-   python app.py
+   python main.py
    ```
    
    
