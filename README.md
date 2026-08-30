@@ -5,7 +5,7 @@ An autonomous AI agent setup built with CrewAI and Gemini that moves beyond simp
 ## 🌟 Key Features
 - **Coder Agent:** Writes Python code based on task requirements.
 - **Python Execution Tool:** Executes code in a runtime environment to validate output.
-- **QA & Debugger Agent (Loop):** Captures error traces and automatically refactors code until execution succeeds.
+- **Self-Healing Debugger Agent (Loop):** Captures error traces and automatically refactors code until execution succeeds.
 
 ## 🛠️ Tech Stack
 - **Framework:** CrewAI
@@ -42,7 +42,7 @@ An autonomous AI agent setup built with CrewAI and Gemini that moves beyond simp
    ```
    python main.py
    ```
-**🔁 How the Self-Healing Loop Works**
+## 🔁 How the Self-Healing Loop Works
 
  [ User Prompt / Task ]
          │
