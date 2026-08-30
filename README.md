@@ -55,7 +55,7 @@ graph TD
 ```
 
 ## 👨‍💻 Author
-**Satyanarayana** - [@satyanarayana51115] https://github.com/satyanarayana51115
+**Satyanarayana** - [@satyanarayana51115](https://github.com/satyanarayana51115)
 
 
 
